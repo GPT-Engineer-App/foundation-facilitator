@@ -1,15 +1,13 @@
-// Update this page (the content is just a fallback if you fail and example)
+import { Button } from "@/components/ui/button";
 
 const Index = () => {
   return (
-    <div className="h-screen w-screen flex items-center justify-center">
-      {/* Update with components here - default to put new layout sections as separate components in the components folder, and import them here */}
-      <div>
-        <h1 className="text-3xl text-center">Your Blank Canvas</h1>
-        <p className="text-center">
-          Chat with the agent to start making edits.
-        </p>
-      </div>
+    <div className="h-screen w-screen flex flex-col items-center justify-center space-y-4">
+      <h1 className="text-3xl text-center">Welcome to Your Bare-Bones App</h1>
+      <p className="text-center">
+        This is a minimal web application. Use this as a starting point to build your project.
+      </p>
+      <Button variant="outline">Get Started</Button>
     </div>
   );
 };
